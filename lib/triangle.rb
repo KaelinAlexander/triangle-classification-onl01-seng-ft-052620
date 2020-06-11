@@ -20,5 +20,9 @@ attr_accessor :len1, :len2, :len3, :type
       :scalene
     end
   end
+  
+  class TriangleError < StandardError
+  
+  end 
 
 end 
