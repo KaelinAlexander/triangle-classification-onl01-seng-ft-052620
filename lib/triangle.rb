@@ -14,11 +14,20 @@ attr_accessor :len1, :len2, :len3, :type
       rescue TriangleError
       end
     elsif len1 + len2 <= len3
-      # Insert Raising Error Here
+      begin
+      raise TriangleError
+      rescue TriangleError
+      end
     elsif len1 + len3 <= len2
-      # Insert Raising Error Here
+      begin
+      raise TriangleError
+      rescue TriangleError
+      end
     elsif len2 + len3 <= len1    
-      # Insert Raising Error Here
+      begin
+      raise TriangleError
+      rescue TriangleError
+      end
     else
       if len1 == len2 && len2 == len3
         :equilateral
