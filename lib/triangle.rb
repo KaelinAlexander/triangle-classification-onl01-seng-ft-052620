@@ -8,7 +8,9 @@ attr_accessor :len1, :len2, :len3, :type
   end
 
   def kind
-    
+    if len1 == len2 == len3
+      :equilateral
+    elsif 
     
     
   end
