@@ -8,7 +8,10 @@ attr_accessor :len1, :len2, :len3, :type
   end
 
   def kind
-    if triangle
+    if len1 !> 0 || len2 !> 0 || or len3 !> 0
+      # Insert Raising Error Here
+    elsif
+      # Insert Raising Error Here
     else
       if len1 == len2 && len2 == len3
         :equilateral
