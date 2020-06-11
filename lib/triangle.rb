@@ -9,5 +9,8 @@ attr_accessor :len1, :len2, :len3, :type
 
   def kind
     
+    
+    
+  end
 
 end 
