@@ -37,7 +37,7 @@ attr_accessor :len1, :len2, :len3, :type
         :isosceles
       elsif len1 == len2 && len1 != len3
         :isosceles
-      elsif len1 != len2 && len1!= len3 && len2 != len3
+      else len1 != len2 && len1!= len3 && len2 != len3
         :scalene
       end
     end 
