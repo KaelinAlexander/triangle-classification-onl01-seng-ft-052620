@@ -21,6 +21,7 @@ attr_accessor :len1, :len2, :len3, :type
       elsif len1 != len2 && len1!= len3 && len2 != len3
         :scalene
       end
+    end 
   end
   
   class TriangleError < StandardError
