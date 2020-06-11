@@ -9,10 +9,7 @@ attr_accessor :len1, :len2, :len3, :type
 
   def kind
     if len1 <= 0 || len2 <= 0 || len3 <= 0
-      begin
       raise TriangleError
-      rescue TriangleError
-      end
     elsif len1 + len2 <= len3
       begin
       raise TriangleError
