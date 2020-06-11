@@ -10,7 +10,7 @@ attr_accessor :len1, :len2, :len3, :type
   def kind
     if len1 == len2 == len3
       :equilateral
-    elsif len2 == len3 && len1 1= len3
+    elsif len2 == len3 && len1 1= len2
       :isosceles
     else len
     
