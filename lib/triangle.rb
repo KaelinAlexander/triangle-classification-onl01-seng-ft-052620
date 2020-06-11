@@ -8,7 +8,7 @@ attr_accessor :len1, :len2, :len3, :type
   end
 
   def kind
-    if len1 !> 0 || len2 !> 0 || or len3 !> 0
+    if len1 <= 0 || len2 <= 0 || or len3 <= 0
       begin
       raise TriangleError
       rescue TriangleError
